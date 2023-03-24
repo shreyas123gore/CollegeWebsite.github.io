@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <a href="index.html" class="logo"> <i class=""></i>SLIET,Longowal </a>
+
+   <nav class="navbar">
+      <div id="close-navbar" class="fas fa-times"></div>
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="departments.html">Departments</a>
+      <a href="contact.html">Contact</a>
+   </nav>
+
+   <div class="icons">
+      <div id="account-btn" class="fas fa-user"></div>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+</header>
+
+<!-- account form section starts  -->
+
+<div class="account-form">
+
+   <div id="close-form" class="fas fa-times"></div>
+
+   <div class="buttons">
+      <span class="btn active login-btn">login</span>
+      <span class="btn register-btn">register</span>
+   </div>
+
+   <form class="login-form active" action="">
+      <h3>login now</h3>
+      <input type="email" placeholder="enter your email" class="box">
+      <input type="password" placeholder="enter your password" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">remember me</label>
+         <a href="#">forgot password?</a>
+      </div>
+      <input type="submit" value="login now" class="btn">
+   </form>
+
+   <form class="register-form" action="">
+      <h3>register now</h3>
+      <input type="email" placeholder="enter your email" class="box">
+      <input type="password" placeholder="enter your password" class="box">
+      <input type="password" placeholder="confirm your password" class="box">
+      <input type="submit" value="register now" class="btn">
+   </form>
+
+</div>
+<!-------->
+<body>
+
+<div class="carousel"> 
+    <button class="carousel__button carousel__button--left">
+        <img src="https://www.svgrepo.com/download/432391/arrow-left.svg">
+    </button>
+
+    <div class="carousel__track-container">
+    
+      <ul class="carousel__track"> 
+        <li class="carousel__slide current-slide">
+        <img class="carousel__image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVomiJxWJu99nxCmT8ZH-t9sFFlnEc6GEYvQ&usqp=CAU" alt="Chania">
+        </li>
+        <li class="carousel__slide">
+        <img class="carousel__image" src="https://scholarstree.com/wp-content/uploads/2020/10/The-Future-of-Agriculture-%E2%80%93-New-Trends-in-Agriculture-2021.jpg" alt="Flower">
+        </li>
+        <li class="carousel__slide">
+        <img class="carousel__image" src="https://www.hausvoneden.de/wp-content/uploads/2019/04/rsz_istock-685053710-951x600.jpg" alt=""></li>
+        <li class="carousel__slide">
+            <img class="carousel__image" src="https://www.hausvoneden.de/wp-content/uploads/2019/04/rsz_istock-685053710-951x600.jpg" alt=""></li>
+     </ul> 
+    
+    </div>
+    <button class="carousel__button carousel__button--right"> 
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAARVBMVEX///8AAACenp5ra2vW1tZqampvb2/T09PY2NilpaX19fV5eXnx8fGrq6uxsbFgYGDg4OCFhYW9vb0eHh7o6OgTExO1tbVOgiqIAAABv0lEQVR4nO3cUVLbMAAEUCuQgBMSWmh7/6O2U4YJJP6M5Gj13gm0s7JsBaFpAgAAAAAAAAAAAAAAAAA6sD8dHg6nl7WHUc9cPmzWHkgtP8un3dpDqeOtnD2sPZgq3r8kjGzxsZTwiMeSHnEu6RFPlwnjIv66ShgX8TU+4st1wrSITwsRw179SxG12BstJhi0xe3ag7otERMMGjFsRX1ciKjF3mgxwQAtiphg0Ihhy83zmC2G7ReXWgybqIO2GPYsDjBRB404wEQNW25+3NlEfZo3NzZv76nFt98Lo6lipRYPrfKVlVrcNAy4yhm4fdOApeybJ7w+NVLXsXnCXeOE7Z/EhUMjVb02T5jf4eUJvNraP4f5a+n1IcOqVjkTHv9N8++VmP5dOuXvLWq4t/3hzcXv8eN/p4n/rW3IgFFTNP7vFkM26BnsSXyD8WcxBOxd/CITfzYxfopqsHca7F18g/H/vRa/4Y1vUMDeCdi7+PfgwuUmWQ3m322ycLVJ1BSdpj/hDY5wT1T+XV8XX9xhz+B/8Xfufbs3MWpHfxZ/9+V5sYm9v3Sa9sfddjcH30ELAAAAAAAAAAAAAAAAAH37C9PZEsfblPfGAAAAAElFTkSuQmCCalt="">
+    </button>
+     
+    <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+    </div>
+
+</div>   
+<!----->
+<!-- carousel -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+   
+  
+    <!-- Wrapper for slides -->
+   
+<!-- carousel ends -->
+
+<section class="subjects">
+
+   <h1 class="heading">our popular subjects</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/subject-icon-1.png" alt="">
+         <h3>graphic design</h3>
+         <p>12 modules</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-2.png" alt="">
+         <h3>mathemetics</h3>
+         <p>12 modules</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-3.png" alt="">
+         <h3>teaching</h3>
+         <p>12 modules</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-4.png" alt="">
+         <h3>development</h3>
+         <p>12 modules</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-5.png" alt="">
+         <h3>science</h3>
+         <p>12 modules</p>
+      </div>
+
+      <div class="box">
+         <img src="images/subject-icon-6.png" alt="">
+         <h3>engineering</h3>
+         <p>12 modules</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- subjects section ends -->
+
+<!-- home courses slider section starts  -->
+
+<section class="home-courses">
+
+   <h1 class="heading"> our popular courses </h1>
+
+   <div class="swiper home-courses-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-1.png" alt="">
+               <h3>web development</h3>
+            </div>
+            <div class="content">
+               <h3>web development</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-2.png" alt="">
+               <h3>web development</h3>
+            </div>
+            <div class="content">
+               <h3>web development</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-3.png" alt="">
+               <h3>web development</h3>
+            </div>
+            <div class="content">
+               <h3>web development</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-4.png" alt="">
+               <h3>web development</h3>
+            </div>
+            <div class="content">
+               <h3>web development</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-5.png" alt="">
+               <h3>web development</h3>
+            </div>
+            <div class="content">
+               <h3>web development</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/course-1-6.png" alt="">
+               <h3>web development</h3>
+            </div>
+            <div class="content">
+               <h3>web development</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ratione?</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- home courses slider section ends -->
+
+
+
+
+
+
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3> <i class=""></i>SLIET,Longowal </h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, voluptatem.</p>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="home.html" class="link">home</a>
+         <a href="about.html" class="link">about</a>
+         <a href="courses.html" class="link">courses</a>
+         <a href="contact.html" class="link">contact</a>
+      </div>
+
+      <div class="box">
+         <h3>useful links</h3>
+         <a href="#" class="link">help center</a>
+         <a href="#" class="link">ask questions</a>
+         <a href="#" class="link">send feedback</a>
+         <a href="#" class="link">private policy</a>
+         <a href="#" class="link">terms of use</a>
+      </div>
+
+      <div class="box">
+         <h3>newsletter</h3>
+         <p>subscribe for latest upadates</p>
+         <form action="">
+            <input type="email" name="" placeholder="enter your email" id="" class="email">
+            <input type="submit" value="subscribe" class="btn">
+         </form>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <span>Shreyas Gore</span> |<b>All rights reserved. </b></div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
